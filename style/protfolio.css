@@ -147,5 +147,10 @@ main{
   .banner{
     margin: 20px;
   }
-  
+  .banner-profile-pic{
+    width: 100%;
+  }
+ .btn-primary{
+  margin-bottom: 20px;
+ }
 }
