@@ -135,10 +135,17 @@ main{
 
 @media screen  and (max-width:576px){
 
-  .skills-container,.about-items{
+  .skills-container, .banner,nav, nav>ul,.about-items{
   flex-direction: column;
+  }
+  nav>ul{
+    gap: 30px;
   }
   .about{
     padding: 20px;
   }
+  .banner{
+    margin: 20px;
+  }
+  
 }
